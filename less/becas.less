@@ -1,0 +1,151 @@
+.becas{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 200; 
+    color: rgb(12, 35, 53);
+    background: url('../images/tennessemin2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;  
+    // background: #C66376;   
+    position: relative; 
+    .bannerBecas{
+        position: absolute;
+        background: rgba(0, 0, 0, .1);
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    } 
+    .row{
+        text-align: center;
+        
+        .becasHeader{
+            h2{
+                font-weight: 200; 
+                font-size: 50px;
+                // color: rgb(12, 35, 53);
+                color: white; 
+            }
+        }
+        .posibilities{
+            border-radius: 24px;
+            .row{
+                flex-direction: column;
+                .ballon1{
+                    padding-top: 10px;
+                    border-top-left-radius: 24px;
+                    border-bottom-left-radius: 24px;
+                    i{
+                     }
+                }
+                .posibilitiesInfo{
+                    color: black;  
+                    font-weight: 400;
+                    // background: aqua;
+                    border-top-right-radius: 24px;
+                    border-bottom-right-radius: 24px;
+                    transition: all .5s ease-in-out;                                                           
+                    h3{
+                    font-weight: 200;
+                    // color: rgb(12, 35, 53);  
+                    color: white; 
+                    }
+                    #posibilitiesInfoDescription{
+                        // display: none;
+                        visibility: hidden;
+                        // color: rgb(12, 35, 53); 
+                        color: white; 
+                    }
+                }
+            }
+        }
+        .definition{
+            // border: 1px dashed black;
+            // background: rgba(255, 255, 255, .8); 
+            // border: 1px solid white;       
+            border-radius: 24px;            
+            .row{
+                flex-direction: column;
+                .ballon2{
+                    // background: rgba(255, 255, 255, .9);                    
+                    // border-top-left-radius: 24px;
+                    // border-bottom-left-radius: 24px;
+                    i{
+                       padding: 30px 25px;
+                    }
+                } 
+                .definitionInfo{
+                    color: black;  
+                    font-weight: 400;
+                    // background: aqua;
+                    border-top-right-radius: 24px;
+                    border-bottom-right-radius: 24px;
+                    transition: all .5s ease-in-out;
+                    h3{
+                    font-weight: 200;
+                    // color:rgb(12, 35, 53);
+                    color: white; 
+                
+                    }
+                    #definitioninfoDescription{
+                        // color: rgb(12, 35, 53);
+                        color: white;   
+                        visibility: hidden;      
+                        // display: none;                        
+                    }
+                }
+            }
+        }
+        .factors{
+            // border: 1px dashed magenta;
+            // background: rgba(255, 255, 255, .8);  
+            border-radius: 24px;
+            // border: 1px solid white;                      
+            .row{
+                flex-direction: column;                
+                .ballon3{
+                // background: rgba(255, 255, 255, .9);  
+                    // border-top-left-radius: 24px;
+                    // border-bottom-left-radius: 24px;
+                    i{
+                        background-color: rgb(12, 35, 53);
+                        color: white;
+                        font-weight: 200;
+                    }
+                }
+                .factorsInfo{
+                    color: black;
+                    border-top-right-radius: 24px;
+                    border-bottom-right-radius: 24px;
+                    transition: all .5s ease-in-out;                    
+                    h3{
+                        font-weight: 200;
+                        // color: rgb(12, 35, 53); 
+                        color: white; 
+                
+                    }
+                    #factorInfoDescription{
+                        // color: rgb(12, 35, 53);
+                        color: white;   
+                        visibility: hidden;      
+                        // display: none;
+                    }
+                }
+            }
+        }
+        .ballon{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;                                                              
+            i{
+                background-color: rgb(12, 35, 53);
+                padding: 30px 30px;
+                border-radius: 100%;
+                font-size: 75px;
+                text-align: center;
+                color: white;
+            }
+        }
+    }
+}

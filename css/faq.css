@@ -1,0 +1,205 @@
+.questions {
+  background: url("../images/question3.jpg") no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  height: 100vh;
+  padding: 75px 0;
+  position: relative;
+  font-family: 'Roboto Condensed';
+}
+.questions .banner {
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.questions .questionsContent .questionsHeader {
+  color: black;
+}
+.questions .questionsContent .questionsHeader h2 {
+  color: white;
+  margin-bottom: 50px;
+}
+.questions .questionsContent .questionsList {
+  padding: 0;
+  list-style: none;
+}
+.questions .questionsContent .questionsList .questionItem {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  padding: 0;
+}
+.questions .questionsContent .questionsList .questionItem:hover .questionInfo {
+  background: white;
+  color: black;
+}
+.questions .questionsContent .questionsList .questionItem:hover .questionIcon span {
+  font-size: 60px;
+  -webkit-transition: .5s linear;
+  -o-transition: .5s linear;
+  transition: .5s linear;
+}
+.questions .questionsContent .questionsList .questionItem .questionIcon {
+  background: white;
+  -webkit-border-top-right-radius: 20px;
+          border-top-right-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+          border-bottom-right-radius: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.questions .questionsContent .questionsList .questionItem .questionIcon span {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  cursor: pointer;
+  -webkit-transition: 1s linear;
+  -o-transition: 1s linear;
+  transition: 1s linear;
+}
+.questions .questionsContent .questionsList .questionItem .questionInfo {
+  color: white;
+  padding-top: 10px;
+  border: 1px solid white;
+  -webkit-border-top-left-radius: 20px;
+          border-top-left-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+          border-bottom-left-radius: 20px;
+}
+.questions .questionsContent .questionsList .questionItem .questionInfo h3 {
+  padding-right: 10px;
+}
+.questions .questionsContent .questionsList .questionItem .questionInfo p {
+  padding-right: 10px;
+  font-size: 18px;
+}
+.questions .questionsContent .questionsList .questionItem:nth-child(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.questions .questionsContent .questionsList .questionItem:nth-child(even) .questionIcon {
+  -webkit-border-top-left-radius: 20px;
+          border-top-left-radius: 20px;
+  -webkit-border-top-right-radius: 0px;
+          border-top-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 20px;
+          border-bottom-left-radius: 20px;
+  -webkit-border-bottom-right-radius: 0px;
+          border-bottom-right-radius: 0px;
+}
+.questions .questionsContent .questionsList .questionItem:nth-child(even) .questionInfo {
+  -webkit-border-top-right-radius: 20px;
+          border-top-right-radius: 20px;
+  -webkit-border-top-left-radius: 0px;
+          border-top-left-radius: 0px;
+  -webkit-border-bottom-right-radius: 20px;
+          border-bottom-right-radius: 20px;
+  -webkit-border-bottom-left-radius: 0px;
+          border-bottom-left-radius: 0px;
+}
+.questions .questionsContent .questionsList .questionItem:nth-child(even) .questionInfo h3 {
+  padding-left: 10px;
+  padding-right: 0;
+}
+.questions .questionsContent .questionsList .questionItem:nth-child(even) .questionInfo p {
+  padding-left: 10px;
+  padding-right: 0;
+}
+.questions .questionsContent .questionsList .questionItem .questionIcon {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.questions .questionsContent .questionsList .questionItem .questionIcon span {
+  font-size: 40px;
+  color: #0c2335;
+}
+.questions .questionsContent .questionsList .questionItem .questionInfo {
+  -webkit-box-flex: 5;
+  -webkit-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+}
+.questions .questionsContent .questionsList .questionItem .questionInfo h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.questions .questionsContent .questionsList .questionItem .questionInfo p {
+  font-weight: 200;
+}
+.questions .questionsContent .questionsList .questionItem .questionInfo .innerUl li {
+  font-size: 15px;
+  font-weight: 200;
+}
+body {
+  font-family: 'Gentium Basic';
+}
+header .navbar {
+  background: #1f1f27;
+  padding: 0;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+header .navbar .theLogo {
+  padding: 7px 7px;
+}
+header .navbar .theLogo img {
+  width: 30%;
+}
+header .navbar .navbar-collapse {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+header .navbar .navbar-collapse .navbar-nav .nav-item {
+  margin-left: 45px;
+}
+header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 15px;
+  border-bottom: 5px solid transparent;
+  padding-top: 27px;
+  padding-bottom: 26px;
+  -webkit-transition: all .5s linear;
+  -o-transition: all .5s linear;
+  transition: all .5s linear;
+}
+header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 5px solid white;
+  -webkit-transition: .5s linear;
+  -o-transition: .5s linear;
+  transition: .5s linear;
+}

@@ -1,0 +1,155 @@
+.becas {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 200;
+  color: #0c2335;
+  background: url('../images/tennessemin2.jpg');
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.becas .bannerBecas {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.becas .row {
+  text-align: center;
+}
+.becas .row .becasHeader h2 {
+  font-weight: 200;
+  font-size: 50px;
+  color: white;
+}
+.becas .row .posibilities {
+  -webkit-border-radius: 24px;
+          border-radius: 24px;
+}
+.becas .row .posibilities .row {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.becas .row .posibilities .row .ballon1 {
+  padding-top: 10px;
+  -webkit-border-top-left-radius: 24px;
+          border-top-left-radius: 24px;
+  -webkit-border-bottom-left-radius: 24px;
+          border-bottom-left-radius: 24px;
+}
+.becas .row .posibilities .row .posibilitiesInfo {
+  color: black;
+  font-weight: 400;
+  -webkit-border-top-right-radius: 24px;
+          border-top-right-radius: 24px;
+  -webkit-border-bottom-right-radius: 24px;
+          border-bottom-right-radius: 24px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.becas .row .posibilities .row .posibilitiesInfo h3 {
+  font-weight: 200;
+  color: white;
+}
+.becas .row .posibilities .row .posibilitiesInfo #posibilitiesInfoDescription {
+  visibility: hidden;
+  color: white;
+}
+.becas .row .definition {
+  -webkit-border-radius: 24px;
+          border-radius: 24px;
+}
+.becas .row .definition .row {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.becas .row .definition .row .ballon2 i {
+  padding: 30px 25px;
+}
+.becas .row .definition .row .definitionInfo {
+  color: black;
+  font-weight: 400;
+  -webkit-border-top-right-radius: 24px;
+          border-top-right-radius: 24px;
+  -webkit-border-bottom-right-radius: 24px;
+          border-bottom-right-radius: 24px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.becas .row .definition .row .definitionInfo h3 {
+  font-weight: 200;
+  color: white;
+}
+.becas .row .definition .row .definitionInfo #definitioninfoDescription {
+  color: white;
+  visibility: hidden;
+}
+.becas .row .factors {
+  -webkit-border-radius: 24px;
+          border-radius: 24px;
+}
+.becas .row .factors .row {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.becas .row .factors .row .ballon3 i {
+  background-color: #0c2335;
+  color: white;
+  font-weight: 200;
+}
+.becas .row .factors .row .factorsInfo {
+  color: black;
+  -webkit-border-top-right-radius: 24px;
+          border-top-right-radius: 24px;
+  -webkit-border-bottom-right-radius: 24px;
+          border-bottom-right-radius: 24px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.becas .row .factors .row .factorsInfo h3 {
+  font-weight: 200;
+  color: white;
+}
+.becas .row .factors .row .factorsInfo #factorInfoDescription {
+  color: white;
+  visibility: hidden;
+}
+.becas .row .ballon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+.becas .row .ballon i {
+  background-color: #0c2335;
+  padding: 30px 30px;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  font-size: 75px;
+  text-align: center;
+  color: white;
+}

@@ -1,0 +1,82 @@
+header {
+  background: url('../images/header/americanFootball2.jpg') center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  height: 100vh;
+  position: relative;
+  z-index: 9999;
+}
+header .container-fluid {
+  z-index: 2;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+header .container-fluid .banner {
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
+header .container-fluid .navbar {
+  background: #1f1f27;
+  padding: 0;
+  width: 100%;
+  z-index: 9999;
+  font-family: 'Gentium Basic';
+  cursor: pointer;
+}
+header .container-fluid .navbar .theLogo {
+  padding: 7px 7px;
+}
+header .container-fluid .navbar .theLogo img {
+  width: 30%;
+}
+header .container-fluid .navbar button span {
+  color: white;
+}
+header .container-fluid .navbar .navbar-collapse {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+header .container-fluid .navbar .navbar-collapse .navbar-nav .nav-item {
+  margin-left: 45px;
+}
+header .container-fluid .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 15px;
+  border-bottom: 5px solid transparent;
+  padding-top: 27px;
+  padding-bottom: 26px;
+  -webkit-transition: all .5s linear;
+  -o-transition: all .5s linear;
+  transition: all .5s linear;
+}
+header .container-fluid .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 5px solid white;
+  -webkit-transition: .5s linear;
+  -o-transition: .5s linear;
+  transition: .5s linear;
+}
+header .container-fluid .header-content {
+  padding-top: 50px;
+  margin-right: 0px;
+}
+header .container-fluid .header-content .header-content-img {
+  padding-right: 0px;
+}
+header .container-fluid .header-content .header-content-img img {
+  margin-bottom: 0;
+}
+header .container-fluid .header-content .header-content-info h3 {
+  color: white;
+  font-size: 45px;
+  margin-top: 20px;
+}
+header .container-fluid .header-content .header-content-info p {
+  color: white;
+  font-size: 20px;
+}

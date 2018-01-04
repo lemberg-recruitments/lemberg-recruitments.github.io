@@ -1,0 +1,107 @@
+.ofProcess {
+  background: none;
+  -webkit-background-size: cover;
+          background-size: cover;
+  height: auto;
+  z-index: 9999;
+  padding: 0px;
+}
+.ofProcess .container-fluid {
+  padding: 0 0;
+}
+.process .processInfo {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.process .processInfo h2 {
+  text-transform: uppercase;
+  background: rgba(24, 24, 24, 0.8);
+  padding-right: 30px;
+  line-height: 60px;
+  color: white;
+  font-size: 60px;
+  font-weight: 200;
+}
+.process .processInfo p {
+  font-size: 18px;
+}
+.process .processInfo h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #1f1f27;
+  padding-right: 10px;
+  border-right: 2px solid #c52f2b;
+}
+.process .processInfo a {
+  color: #1f1f27;
+  text-decoration: none;
+  font-size: 30px;
+}
+.process .processInfo ul {
+  list-style: none;
+}
+.process .processInfo ul li {
+  font-weight: 200;
+}
+.process .processInfo .card {
+  border: none;
+  position: relative;
+}
+.process .processInfo .card:after {
+  font-family: 'fontawesome';
+  content: '\f080';
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background: #1f1f27;
+  position: absolute;
+  top: -webkit-calc(10%);
+  top: calc(10%);
+  color: white;
+  text-align: center;
+  padding-top: 9px;
+  right: -10px;
+  z-index: 88;
+}
+.process .processInfo .card .card-header {
+  background: none;
+  border: none;
+  padding-right: 50px;
+}
+.process .processInfo .card .card-body {
+  padding-right: 50px;
+}
+.process .processInfo .dSecond:after {
+  font-family: 'fontawesome';
+  content: '\f0cb';
+}
+.process .processInfo .dThird:after {
+  font-family: 'fontawesome';
+  content: '\f2b5';
+}
+.process .processInfo .dFourth:after {
+  font-family: 'fontawesome';
+  content: '\f072';
+}
+.process .processImg {
+  background: url("../images/trofeo.jpg") center no-repeat;
+}
+.dtest .dspinner {
+  width: 100px;
+  height: 100px;
+  background: pink;
+}
+.dtest .dspinner:after {
+  font-family: 'fontawesome';
+  content: '\f042';
+  width: 50px;
+  height: 50px;
+  display: block;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background: red;
+}

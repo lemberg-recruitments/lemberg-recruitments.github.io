@@ -1,0 +1,126 @@
+.contactUs .cheerUp {
+  -webkit-background-size: cover;
+          background-size: cover;
+  padding: 20px 0;
+  position: relative;
+}
+.contactUs .cheerUp .cheerUp-banner {
+  background: rgba(31, 31, 39, 0.3);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.contactUs .cheerUp .cheerUp-Content {
+  position: relative;
+  z-index: 5;
+}
+.contactUs .cheerUp .cheerUp-Content h2 {
+  font-size: 100px;
+  font-weight: 200;
+  color: white;
+  text-align: center;
+  z-index: 99999;
+}
+.contactUs .cheerUp .cheerUp-Content button {
+  background: #BF360C;
+  display: block;
+  font-size: 30px;
+  width: 130px;
+  height: 130px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  color: white;
+  margin: 40px auto;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  -webkit-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+.contactUs .cheerUp .cheerUp-Content button:hover {
+  border: 2px solid white;
+  -webkit-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+.contactUs .cheerUp .cheerUp-Content button p {
+  margin-top: 20px;
+  line-height: 25px;
+}
+.contactUs .modal {
+  margin-top: 120px;
+}
+.contactUs .modal-body {
+  background: #1f1f27;
+}
+.contactUs .modal-body form {
+  color: white;
+  background: #1f1f27;
+}
+.contactUs .modal-body form .formInfo {
+  padding-right: 50px;
+}
+.contactUs .modal-body form .formInfo .form-group label {
+  color: #6f6f74;
+}
+.contactUs .modal-body form .formInfo .form-group input {
+  background: none;
+  border: none;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  border-bottom: 1px solid #6f6f74;
+  padding-left: 0;
+  color: white;
+}
+.contactUs .modal-body form .formInfo .form-group input::-webkit-input-placeholder {
+  color: white;
+}
+.contactUs .modal-body form .formInfo .form-group input::-moz-placeholder {
+  color: white;
+}
+.contactUs .modal-body form .formInfo .form-group input:-ms-input-placeholder {
+  color: white;
+}
+.contactUs .modal-body form .formInfo .form-group input::-ms-input-placeholder {
+  color: white;
+}
+.contactUs .modal-body form .formInfo .form-group input::placeholder {
+  color: white;
+}
+.contactUs .modal-body form .formInfo .form-check input {
+  background: red;
+}
+.contactUs .modal-body form .formContent {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.contactUs .modal-body form .formContent .form-group {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-left: 1px solid #ffffff;
+}
+.contactUs .modal-body form .formContent .form-group textarea {
+  border: none;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  background: none;
+  color: white;
+}
+.contactUs .modal-body form .formContent button {
+  background: #f97000;
+  border: none;
+  width: 100%;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+@media (max-width: 576px) {
+  .cheerUp .cheerUp-Content h2 {
+    display: none;
+  }
+}

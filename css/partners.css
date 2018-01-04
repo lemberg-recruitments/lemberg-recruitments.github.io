@@ -1,0 +1,13 @@
+.partners {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.partners h2 {
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: 200;
+}
+.partners img {
+  max-width: 150px;
+  margin: auto;
+}

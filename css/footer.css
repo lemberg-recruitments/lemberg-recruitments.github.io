@@ -1,0 +1,117 @@
+footer {
+  background-image: url("../images/soccerPole.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: center;
+  color: white;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  position: relative;
+}
+footer .firstBlock {
+  text-align: center;
+  margin-bottom: 30px;
+}
+footer .firstBlock p {
+  font-size: 60px;
+}
+footer .firstBlock p i {
+  cursor: pointer;
+}
+footer .beInTouch {
+  text-align: center;
+}
+footer .beInTouch ul {
+  list-style: none;
+  padding: 0;
+  padding-bottom: 0;
+}
+footer .beInTouch ul li {
+  padding-bottom: 0;
+}
+footer .beInTouch ul li p {
+  margin-bottom: 0;
+  margin-left: 10px;
+  display: inline-block;
+}
+footer .beInTouch ul li:before {
+  content: "\f098";
+  font-family: 'fontawesome';
+  font-size: 18px;
+}
+footer .followUs {
+  text-align: center;
+}
+footer .followUs ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer .followUs ul li {
+  padding-right: 30px;
+  font-size: 25px;
+}
+footer .followUs ul li i {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+footer .followUs ul li i:hover {
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  -webkit-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+footer .followUs ul li .fa-instagram {
+  padding: 10px 12px;
+}
+footer .followUs ul li .fa-skype {
+  padding: 10px 12px;
+}
+footer .footerBanner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(31, 31, 39, 0.6);
+  width: 100%;
+  height: 100%;
+}
+footer .toUp {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  color: tomato;
+  font-size: 50px;
+  cursor: pointer;
+  -webkit-animation: bote 1s infinite;
+          animation: bote 1s infinite;
+}
+@-webkit-keyframes bote {
+  0% {
+    bottom: 40px;
+  }
+  100% {
+    bottom: 30px;
+  }
+}
+@keyframes bote {
+  0% {
+    bottom: 40px;
+  }
+  100% {
+    bottom: 30px;
+  }
+}

@@ -1,0 +1,62 @@
+.informationOut {
+  padding: 10px 0;
+  background: url('../images/tennis2.jpg') no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  position: relative;
+}
+.informationOut .informationIn {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  position: relative;
+}
+.informationOut .informationIn .row .whyStudy h2 {
+  margin: 10px;
+  font-size: 70px;
+  font-weight: 200;
+}
+.informationOut .informationIn .row .whyStudy p {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+.informationOut .informationIn .row .advantages {
+  font-weight: 200;
+}
+.informationOut .informationIn .row .advantages h2 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 40px;
+}
+.informationOut .informationIn .row .advantages ul {
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.informationOut .bannerInfo {
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.informationOut .sports {
+  color: white;
+}
+.informationOut .sports .sportsHeader {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+.informationOut .sports .sportsList ul {
+  list-style: none;
+  padding: 0;
+}
+.informationOut .sports .sportsList ul li .sportName {
+  padding-left: 0;
+  padding-top: 25px;
+}

@@ -1,0 +1,7 @@
+.helloOut {
+  background: #f59393;
+  height: 100vh;
+}
+.helloOut .helloIn {
+  background: grey;
+}
